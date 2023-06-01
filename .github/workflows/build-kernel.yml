@@ -8,15 +8,15 @@ on:
       KERNEL_SOURCE:
         description: 'Kernel Source'
         required: true
-        default: 'https://github.com/Three-taile-dragon/crdroid_kernel_oneplus_sdm845'
+        default: 'https://github.com/donvito007/android_kernel_xiaomi_thyme'
       KERNEL_SOURCE_BRANCH:
         description: 'Branch'
         required: true
-        default: '13.0-m00'
+        default: 'main'
       KERNEL_DEFCONFIG:
         description: 'Defconfig'
         required: true
-        default: 'arch/arm64/configs/enchilada_defconfig'
+        default: 'thyme_defconfig'
       KERNEL_FILE:
         description: 'Your kernel out image name'
         required: true
