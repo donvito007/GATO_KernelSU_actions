@@ -8,15 +8,15 @@ on:
       KERNEL_SOURCE:
         description: 'Kernel Source'
         required: true
-        default: 'https://github.com/donvito007/android_kernel_xiaomi_thyme_Rinko-Studio'
+        default: 'https://github.com/Rocky7842/android_kernel_xiaomi_sdm710'
       KERNEL_SOURCE_BRANCH:
         description: 'Branch'
         required: true
-        default: 'thirteen'
+        default: 'lineage-20-new'
       KERNEL_DEFCONFIG:
         description: 'Defconfig'
         required: true
-        default: 'thyme_defconfig'
+        default: 'xiaomi/sdm710-common-stock_defconfig'
       KERNEL_FILE:
         description: 'Your kernel out image name'
         required: true
